@@ -5,7 +5,6 @@ function Horse() {
     return (
         <>
         <Search></Search>
-        }
         </>
     )
 }

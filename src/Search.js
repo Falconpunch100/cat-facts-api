@@ -14,7 +14,7 @@ function Search() {
 
 
     return (
-        <form onSubmit={(e) => {
+        <form searchAnimals={searchAnimals} onSubmit={(e) => {
             e.preventDefault()
             searchAnimals()
         }}>
