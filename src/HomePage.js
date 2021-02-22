@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom"
-import { useEffect, useState } from "react"
+
 
 function HomePage() {
 
@@ -8,9 +8,9 @@ function HomePage() {
             <header>Cat Facts</header>
             <main>
                 
-            <div><Link to='/shibes'>Dogs</Link></div>
-            <div><Link to='/cats'>Cats</Link></div>
-            <div><Link to='/horses'>Horses</Link></div>
+            <div><Link to='/dog'>Dogs</Link></div>
+            <div><Link to='/cat'>Cats</Link></div>
+            <div><Link to='/horse'>Horses</Link></div>
                 
             </main>
         </>

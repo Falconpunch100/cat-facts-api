@@ -1,5 +1,12 @@
+* {
+  margin: 0;
+}
+main {
+  text-align: center;
+}
+
 body {
-  background-color: lightgray;
+  background-color: rgb(206, 252, 244);
 }
 
 .App {

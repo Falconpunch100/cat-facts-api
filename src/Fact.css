@@ -1,0 +1,17 @@
+.fact {
+    background-color: rgb(128, 168, 187);
+    border: 1px paleturquoise inset;
+    margin: 10px 2px;
+    width: 60%;
+    padding: 10px;
+    animation: fade-in 1000ms;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

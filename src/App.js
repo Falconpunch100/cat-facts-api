@@ -1,28 +1,27 @@
 import './App.css';
 import { Route } from "react-router-dom"
 import HomePage from "./HomePage.js"
-import Shibe from "./Dog.js"
+import Dog from "./Dog.js"
 import Kitten from "./Kitten.js"
-import Bird from "./Horse.js"
-import Search from "./Search.js"
+import Horse from "./Horse.js"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Route path="/home">
+      <main className="App-header">
+        <Route path="/" exact>
           <HomePage></HomePage>
         </Route>
-        <Route path="/shibes">
-          <Shibe></Shibe>
+        <Route path="/dog">
+          <Dog></Dog>
         </Route>
-        <Route path="/cats">
+        <Route path="/cat">
           <Kitten></Kitten>
         </Route>
-        <Route path="/birds">
-          <Bird></Bird>
+        <Route path="/horse">
+          <Horse></Horse>
         </Route>
-      </header>
+      </main>
     </div>
   );
 }
